@@ -3,6 +3,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
     background: linear-gradient(to bottom, #ffdde1, #ffffff);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -35,6 +37,7 @@ nav a {
     padding: 14px 20px;
     display: inline-block;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 nav a:hover {
